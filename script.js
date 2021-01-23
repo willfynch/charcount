@@ -1,17 +1,6 @@
-
-    
-function getUserText(a) {
-    alert("test ok" + a);
-
-}
-
-
-
 $(document).ready(function(){
 
-
-    
-    
+    // detect click on counter button 
     $("#countbutton").click(function(){
 
         // get text in variable
@@ -62,11 +51,7 @@ $(document).ready(function(){
         $("#litab").text("Tabulation : " + myresult.tab);
         $("#liline").text("Sauts de ligne : " + myresult.line);
         $("#showobject").css("display", "block");
-    })
-
-    
-
-
+    })  
 })
 
 

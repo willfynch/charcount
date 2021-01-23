@@ -22,12 +22,13 @@
         }
 
         
-
+        // EVERYTHING BUT FOOTER
         .counter {
             
             //layout
             padding: 0 10vw 0 10vw;
 
+            // Short text before textarea
             #consigne {
                 //layout
                 margin-top: 20px;
@@ -35,19 +36,23 @@
                 font-weight: bold;
             }
 
+            // textarea
             #mytext {
                 width: 80vw;
             }
 
+            // checkboxes
             #mycheckboxes {
                 margin: 10px 0 10px 0;
             }
 
+            // result part
             #result {
 
                 display: inline-block;
                 position: relative;
                 
+                // button to start counting
                 #countbutton {
                     //layout
                     height: 2.5rem;
@@ -69,7 +74,9 @@
                     transition: ease all 0.05s;
                 }
 
+                 // result part
 
+                 
                 #resultarea{
 
                     //layout
