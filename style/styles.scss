@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+
+    body {
+        //layout
+        display: flex;
+        flex-direction: column;
+        
+
+        h1 {
+            // layout
+            position: sticky;
+            padding: 0 10vw 0 10vw;
+            //style
+            background-color: seagreen;
+            color: white;
+            box-shadow: grey 0 2px 5px;
+            
+        }
+
+        
+
+        .counter {
+            
+            //layout
+            padding: 0 10vw 0 10vw;
+
+            #consigne {
+                //layout
+                margin-top: 20px;
+                //style
+                font-weight: bold;
+            }
+
+            #mytext {
+                width: 80vw;
+            }
+
+            #mycheckboxes {
+                margin: 10px 0 10px 0;
+            }
+
+            #result {
+
+                display: inline-block;
+                position: relative;
+                
+                #countbutton {
+                    //layout
+                    height: 2.5rem;
+                    width: 120px;
+
+                    //style
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: seagreen;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    transition: ease all 0.05s;
+                    
+                }
+
+                #countbutton:hover {
+                    transform: scale(102%);
+                    transition: ease all 0.05s;
+                }
+
+
+                #resultarea{
+
+                    //layout
+                    position: absolute;
+                    text-align: center;
+                    height: 1.5rem;
+
+                    //style
+                    top: 8px;
+                    margin-left: 10px;
+                    font-size: 1.2rem;
+                    
+                    
+                }
+
+                #caracteres {
+                    position: relative;
+                    margin-left: 90px;
+                }
+            }
+
+            #showobject {
+                
+                display: none;
+                margin: 20px 0 20px 0px;
+                
+                p {
+                    padding: 5px 0 5px 10px;
+                }
+
+                //style
+                
+                border-radius: 10px;
+                background-color: silver;
+
+                    #lichar {
+                        
+                        //style
+                        border-radius: 10px 10px 0 0;
+                        background-color: seagreen;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        padding: 5px 0 5px 10px;
+                       
+                    }
+
+                    
+
+                
+
+            }
+
+            .article {
+
+                text-align: justify;
+                
+
+                h2 {
+                    //layout
+                    margin: 10px 0 5px 0;
+                    padding: 5px 0 5px 10px;
+                    //style
+                    border-radius: 5px 5px 0 0;
+                    background-color: seagreen;
+                    color: white;
+                    font-size: 1.1rem;
+                }
+
+                p {
+                    text-indent: 15px;
+                }
+            }
+
+            
+
+        }
+
+        footer {
+            //layout
+            padding: 25px 0 25px 10vw;
+            margin: 20px 0 0 0;
+            
+
+            //style
+            background-color: rgb(66, 66, 66);
+            color: white;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            img {
+                //layout
+                position: relative;
+                top: 6px;
+                left: 10px;
+                width: 20px;
+                height: auto;
+
+                //style
+                filter: invert(100%);
+
+            }
+
+        }
+
+    }
+}

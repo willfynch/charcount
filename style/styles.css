@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 0 10vw 0 10vw;
+  background-color: seagreen;
+  color: white;
+  -webkit-box-shadow: grey 0 2px 5px;
+          box-shadow: grey 0 2px 5px;
+}
+
+* body .counter {
+  padding: 0 10vw 0 10vw;
+}
+
+* body .counter #consigne {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+* body .counter #mytext {
+  width: 80vw;
+}
+
+* body .counter #mycheckboxes {
+  margin: 10px 0 10px 0;
+}
+
+* body .counter #result {
+  display: inline-block;
+  position: relative;
+}
+
+* body .counter #result #countbutton {
+  height: 2.5rem;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  -webkit-transition: ease all 0.05s;
+  transition: ease all 0.05s;
+}
+
+* body .counter #result #countbutton:hover {
+  -webkit-transform: scale(102%);
+          transform: scale(102%);
+  -webkit-transition: ease all 0.05s;
+  transition: ease all 0.05s;
+}
+
+* body .counter #result #resultarea {
+  position: absolute;
+  text-align: center;
+  height: 1.5rem;
+  top: 8px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+* body .counter #result #caracteres {
+  position: relative;
+  margin-left: 90px;
+}
+
+* body .counter #showobject {
+  display: none;
+  margin: 20px 0 20px 0px;
+  border-radius: 10px;
+  background-color: silver;
+}
+
+* body .counter #showobject p {
+  padding: 5px 0 5px 10px;
+}
+
+* body .counter #showobject #lichar {
+  border-radius: 10px 10px 0 0;
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 0 5px 10px;
+}
+
+* body .counter .article {
+  text-align: justify;
+}
+
+* body .counter .article h2 {
+  margin: 10px 0 5px 0;
+  padding: 5px 0 5px 10px;
+  border-radius: 5px 5px 0 0;
+  background-color: seagreen;
+  color: white;
+  font-size: 1.1rem;
+}
+
+* body .counter .article p {
+  text-indent: 15px;
+}
+
+* body footer {
+  padding: 25px 0 25px 10vw;
+  margin: 20px 0 0 0;
+  background-color: #424242;
+  color: white;
+}
+
+* body footer a {
+  text-decoration: none;
+  color: white;
+}
+
+* body footer img {
+  position: relative;
+  top: 6px;
+  left: 10px;
+  width: 20px;
+  height: auto;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+/*# sourceMappingURL=styles.css.map */
